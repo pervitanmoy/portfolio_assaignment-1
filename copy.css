@@ -1,0 +1,115 @@
+.cta-container{
+    width: 100%;
+    height: 499px;
+    background-color: #1C1C57;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+}
+.ctacontemt{
+    max-width: 48rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+
+.heading-h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 130px;
+    font-weight: 500;
+}
+.cta-sub-title {
+font-size: 1.2rem;
+font-weight: 300;
+margin: 0;
+font-family: sans-serif;
+margin-top: 40px;
+}
+.cta-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-images img {
+    width: 100px; 
+    height: auto;
+    border-radius: 8px;
+}
+.top1 {
+    position: absolute;
+    top: 95px;
+    left: 125px;
+}
+.top2 {
+    position: absolute;
+    top: 65px;
+    left: 1055px;
+}
+.bottom1 {
+    position: absolute;
+    bottom: 20px;
+    left: 210px;
+}
+.bottom2{
+    position: absolute;
+    bottom: -2px;
+    right: -15px;
+}
+.cta_btn{
+    text-align: center;
+}
+.cta_btn a {
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+.cta_btn button {
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;  
+    padding: 20px;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #2c2c2c;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: color .35s, border .2s, background-color .35s;
+}
+.cta_btn button:hover {
+    background-color: #078D84;
+    color:#ffffff;
+    border: 1px solid #078D84;
+    transition: color .35s, border .2s, background-color .35s;
+}
+.cta_btn .primary_btn{
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;  
+    padding: 20px;
+    background-color:transparent ;
+    font-size: 1rem;
+    color: #078D84;
+    border: 1px solid #ffffff;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: color .35s, border .2s, background-color .35s;
+}
+.service_btn .primary_btn:hover{
+    background-color: #078D84;
+    color:#ffffff;
+    border: 1px solid #ffffff;
+    transition: color .35s, border .2s, background-color .35s;
+}
